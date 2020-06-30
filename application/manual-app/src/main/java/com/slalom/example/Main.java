@@ -5,7 +5,7 @@ import com.slalom.example.domain.entity.User;
 
 public class Main {
 	public static void main(String[] args) {
-		// Setup
+		// Setup something
 		var config = new ManualConfig();
 		var createUser = config.createUser();
 		var findUser = config.findUser();
